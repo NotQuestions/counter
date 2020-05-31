@@ -1,0 +1,24 @@
+.input-counter{
+  border: none;
+  border-bottom: 2px solid black;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  &:focus{
+    border: none;
+    background: #efefef;
+  }
+
+}
+.buttonCount{
+  margin: 10px;
+  border: none;
+  background: #404040;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
